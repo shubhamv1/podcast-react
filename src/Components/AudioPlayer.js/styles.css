@@ -1,0 +1,34 @@
+.custom-audio-player{
+  width:100vw;
+  position:fixed;
+  bottom:0;
+  left: 0;  
+  padding: 0rem 0rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  background-color: rgba(14,2,21,0.5);
+}
+
+.podcast-icon{
+    width:35px;
+    height:35px;
+    object-fit: cover;
+    padding: 0;
+}
+.duration-range{
+    filter: hue-rotate(25deg);
+    width:100%
+}
+.duration-timer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 50%
+}
+.duration-volume{
+    filter: hue-rotate(25deg);
+    width:23%
+}
